@@ -4,8 +4,9 @@ class LogosController < ApplicationController
   # GET /logos
   def index
     @logos = Logo.all
-
-    render json: @logos
+ 
+    #render json: @logos
+    render status:
   end
 
   # GET /logos/1
