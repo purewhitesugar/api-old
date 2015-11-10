@@ -6,7 +6,7 @@ class LogosController < ApplicationController
     @logos = Logo.all
  
     #render json: @logos
-    render status: 503
+    render status:
   end
 
   # GET /logos/1
